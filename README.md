@@ -18,6 +18,6 @@ In recent years, commercial large language model (LLM) chatbots have become prev
 
 **/data/visualization/**: This folder consists of various visualizations that were created for the Spanish and German translations.
 
-**/data/corpora/**:
+**/data/corpora/**: Contains the wordnet corpus, used for earlier testing to compare similarities
 
-**/data/tokenizers/**:
+**/data/tokenizers/**: Used to tokenize the sentences before computing BLEU and METEOR scores, contains the downloaded NLTK Punkt corpus
